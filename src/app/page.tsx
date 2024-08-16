@@ -8,10 +8,10 @@ export default function Home() {
       
       <div className="p-4 bg-white border border-gray-300">
         <Image
-          src="/AlexPicture.jpeg" // Ensure the image name and extension match your file
+          src="/AlexPicture.jpeg" 
           alt="Alex Bondarchuk"
-          width={300} // Adjust the width as needed
-          height={300} // Adjust the height as needed
+          width={300} 
+          height={300} 
           className="object-cover"
         />
       </div>

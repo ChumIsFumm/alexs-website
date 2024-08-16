@@ -21,11 +21,11 @@ export default function RootLayout({
         <link href="https://fonts.googleapis.com/css2?family=Marcellus&display=swap" rel="stylesheet" />
       </head>
       <body className={`${inter.className} flex flex-col min-h-screen`}>
-        <Header /> {/* Include the Header component */}
+        <Header /> 
         <main className="flex-grow">
           {children}
         </main>
-        <Footer /> {/* Include the Footer component */}
+        <Footer /> 
       </body>
     </html>
   );
